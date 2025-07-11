@@ -1,7 +1,7 @@
 import React from 'react'
 
 const BannerLeft = () => {
-  const CetegoriesData = [
+  const CategoriesData = [
     {
       name: "Woman’s Fashion"
     },
@@ -31,10 +31,10 @@ const BannerLeft = () => {
     }
   ]
   return (
-    <div className='w-[20%]'>
+    <div className='w-[20%] relative after:absolute after:bg-black/30 after:top-[-40px] after:right-0 after:h-[384px] after:w-[1px] '>
       {
-        CetegoriesData.map((cetegory) => (
-          <p className='mb-4 font-primary'>{cetegory.name}</p>
+        CategoriesData.map((category) => (
+          <p className='mb-4 font-primary'>{category.name}</p>
         ))
       }
     </div>
