@@ -204,7 +204,7 @@ const OurProducts = () => {
             ))
           }
           <div className='text-center mt-[60px]'>
-            <button  onClick={handleLoadData} className='py-4 px-[48px] rounded bg-primary text-white font-primary font-medium'>View All Products</button>
+            <button  onClick={handleLoadData} className='py-4 px-[48px] rounded bg-primary text-white font-primary font-medium'>Show More Products</button>
           </div>
         </Container> 
         </section>
