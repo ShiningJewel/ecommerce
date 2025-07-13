@@ -7,7 +7,7 @@ const Offer = () => {
   return (
     <section className=' pb-[161px]'>
       <Container>
-        <div className='bg-[url(./assets/offer.png)] py-[69px]'>
+        <div className='bg-[url(./assets/offer.png)] bg-cover bg-no-repeat bg-center py-[69px]'>
       <div  className='pl-[56px]'>
         <div>
         <p className='font-primary font-semibold text-[#00FF66]'>Categories</p>
