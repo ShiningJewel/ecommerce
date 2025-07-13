@@ -8,3 +8,29 @@
   
   --color-primary: #DB4444;
 }
+
+.slick-dots {
+
+    bottom: 30px !important;
+}
+
+.slick-dots li button {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white !important;
+}
+
+.slick-dots li.slick-active button:before {
+    background-color: red !important;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+
+.slick-dots li button:before {
+    color: transparent !important;
+}
